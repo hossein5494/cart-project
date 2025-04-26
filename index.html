@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+  </head>
+  <body class="flex justify-center items-center min-h-screen">
+    <div
+      class="bg-gray-200 rounded-3xl w-full sm:w-3/4 h-5/6 sm:h-auto max-h-5/6 sm:max-h-none shadow-xl shadow-gray-400 overflow-y-auto sm:overflow-hidden"
+    >
+      <h1 class="pb-10 pl-5 pt-10 font-sans text-2xl">My Carts :</h1>
+      <!-- کانتینر کارت‌ها -->
+      <div
+        class="flex flex-col sm:flex-row sm:flex-wrap gap-3 items-center sm:justify-between"
+      >
+        <!-- کارت اول -->
+        <div
+          class="bg-gradient-to-r from-green-400 to-green-800 rounded-xl w-5/6 sm:w-60 h-40 sm:h-32 text-center pt-16 sm:pt-10 font-bold font-mono text-lg sm:text-base mx-auto"
+        >
+          6219 8619 0869 9852<br />
+          <div class="flex justify-between p-2 pt-8 sm:pt-5">
+            <div>CVV2:1245</div>
+            <div>07/25</div>
+          </div>
+        </div>
+        <!-- کارت دوم -->
+        <div
+          class="bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl w-5/6 sm:w-60 h-40 sm:h-32 text-center pt-16 sm:pt-10 font-bold font-mono text-lg sm:text-base mx-auto"
+        >
+          6037 2569 4879 1259<br />
+          <div class="flex justify-between p-2 pt-8 sm:pt-5">
+            <div>CVV2:8269</div>
+            <div>04/09</div>
+          </div>
+        </div>
+        <!-- کارت سوم -->
+        <div
+          class="bg-gradient-to-r from-orange-400 to-orange-800 rounded-xl w-5/6 sm:w-60 h-40 sm:h-32 text-center pt-16 sm:pt-10 font-bold font-mono text-lg sm:text-base mx-auto"
+        >
+          3259 4871 6892 2548<br />
+          <div class="flex justify-between p-2 pt-8 sm:pt-5">
+            <div>CVV2:8524</div>
+            <div>07/07</div>
+          </div>
+        </div>
+      </div>
+      <!-- کانتینر جداگانه برای دیوهای جدید -->
+      <div class="flex flex-col gap-5 mt-10 m-3 pt-20">
+        <h1 class="pb-10 pl-5 font-sans text-2xl">My Transactions :</h1>
+        <div
+          class="bg-gradient-to-r from-green-400 to-green-800 h-16 sm:h-16 rounded-lg w-11/12 sm:w-11/12 mx-auto"
+        >
+          <div class="flex justify-between pt-5 pl-5 pr-5">
+            <div>Buy ice cream</div>
+            <div class="text-red-600 font-bold">-$12.89</div>
+          </div>
+        </div>
+        <div
+          class="bg-gradient-to-r from-blue-400 to-blue-800 h-16 sm:h-16 rounded-lg w-11/12 sm:w-11/12 mx-auto"
+        >
+          <div class="flex justify-between pt-5 pl-5 pr-5">
+            <div>Receive salary</div>
+            <div class="text-green-600 font-bold">+$50.000</div>
+          </div>
+        </div>
+        <div
+          class="bg-gradient-to-r from-orange-400 to-orange-800 h-16 sm:h-16 rounded-lg w-11/12 sm:w-11/12 mx-auto"
+        >
+          <div class="flex justify-between pt-5 pl-5 pr-5">
+            <div>House rent payment</div>
+            <div class="text-red-600 font-bold">-$30.000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
